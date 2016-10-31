@@ -1,0 +1,68 @@
+Przykłady
+
+Dla danych:
+a  b
+ c
+d e
+    f
+  g
+ h i
+j   k
+wynik programu, po posortowaniu, powinien mieć postać:
+
+acgbf
+dheif
+jhgik
+
+Dla danych:
+a  b
+ c d  e
+f
+  gh
+    ij k
+l     m
+ n   o
+  p
+      q
+     r s
+t
+ uv
+    w
+ x   yz
+ 
+wynik programu, po posortowaniu, powinien mieć postać:
+
+auvbijqk
+auvbwrqs
+fcpdijek
+fcpdwres
+tcpdijek
+tcpdwres
+
+Dla danych:
+
+  a   b
+c d
+    ef
+ g
+  hi
+j     k
+ l
+     m
+    n o
+  p
+q  r
+   s
+   
+wynik programu, po posortowaniu, powinien mieć postać:
+
+cgdsnmo
+cldsnmo
+jghiefk
+jgpsefk
+jlhiefk
+jlpsefk
+qgarefb
+qgprnmo
+qlarefb
+qlprnmo
