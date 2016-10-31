@@ -1,7 +1,6 @@
 # programx
 Problem dokładnego pokrycia
 
-/**
  * "Program x"
  *
  * Program wczytuje ciąg wierszy W1 … Wn reprezentujący instancję problemu dokładnego pokrycia i wypisuje, 
@@ -10,4 +9,3 @@ Problem dokładnego pokrycia
  * autor: Michal Smutkiewicz
  * wersja: 1.0
  * data: 11 stycznia 2016
- */
