@@ -25,46 +25,7 @@ Rozwiązaniem problemu jest podzbiór Q zbioru numerów wierszy {1 … n}. Repre
 Program wybiera znaki wierszy wynikowych metodą prób i błędów, w kolejności od początku wiersza, uwzględniając podjęte wcześniej decyzje.
 Najpierw więc, na wszystkie możliwe sposoby, wybieramy znak, który znajdzie się w pierwszej kolumnie wiersza wynikowego. Następnie, również na wszystkie możliwe sposoby, wybieramy do kolumny drugiej znak nie kolidujący z wyborem dokonanym w kolumnie pierwszej itd. dla wszystkich pozostałych kolumn.
 
-Przykłady
-Dla danych:
-a  b
- c
-d e
-    f
-  g
- h i
-j   k
-
-wynik programu, po posortowaniu, ma postać:
-
-acgbf
-dheif
-jhgik
-
-Dla danych:
-a  b
- c d  e
-f
-  gh
-    ij k
-l     m
- n   o
-  p
-      q
-     r s
-t
- uv
-    w
- x   yz
- 
-wynik programu, po posortowaniu, ma postać:
-
-auvbijqk
-auvbwrqs
-fcpdijek
-fcpdwres
-tcpdijek
-tcpdwres
+Przykłady w pliku tests
 
 Uwagi
 
