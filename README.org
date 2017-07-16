@@ -12,9 +12,10 @@
    Program x, wczytuje ciąg wierszy W1 … Wn reprezentujący instancję problemu dokładnego pokrycia i wypisze, w dowolnej kolejności, reprezentacje wszystkich rozwiązań tego problemu.
 
    Rozwiązaniem problemu jest podzbiór Q zbioru numerów wierszy {1 … n}. Reprezentacją rozwiązania jest wiersz R spełniający wszystkie poniższe warunki:
-  •	długość R jest równa maksimum z długości W1 … Wn,
-  •	w R nie występuje żadna spacja,
-  •	dla każdego znaku Ri kolumny i-tej wiersza R istnieje element j zbioru Q taki, że (Wj)i = Ri i dla każdego k w zbiorze Q różnego od j, (Wk)i = ' '.
+   
+- długość R jest równa maksimum z długości W1 … Wn,
+- w R nie występuje żadna spacja,
+- dla każdego znaku Ri kolumny i-tej wiersza R istnieje element j zbioru Q taki, że (Wj)i = Ri i dla każdego k w zbiorze Q różnego od j, (Wk)i = ' '.
 
    Program wybiera znaki wierszy wynikowych metodą prób i błędów, w kolejności od początku wiersza, uwzględniając podjęte wcześniej decyzje.
    Najpierw więc, na wszystkie możliwe sposoby, wybieramy znak, który znajdzie się w pierwszej kolumnie wiersza wynikowego. Następnie, również na wszystkie możliwe sposoby, wybieramy do kolumny drugiej znak nie kolidujący z wyborem dokonanym w kolumnie pierwszej itd. dla wszystkich pozostałych kolumn.
